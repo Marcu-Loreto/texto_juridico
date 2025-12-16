@@ -1,0 +1,97 @@
+2025-12-16 19:37:26 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:37:26 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:37:26 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:38:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:38:09 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:09 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:13 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:13 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:19 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:19 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:21 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:21 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:30 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:30 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:38:36 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:36 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:38:49 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:38:49 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:38:53 - SimplificadorJuridico - ERROR - Erro de conexão com a API: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/processar (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6DEC58EC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-12-16 19:38:53 - SimplificadorJuridico - ERROR - Erro de conexão com a API: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/processar (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6DEC58EC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-12-16 19:40:22 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:40:22 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:40:26 - SimplificadorJuridico - ERROR - Erro de conexão com a API: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/processar (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6DEC6E350>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-12-16 19:40:26 - SimplificadorJuridico - ERROR - Erro de conexão com a API: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/processar (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6DEC6E350>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-12-16 19:41:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:41:46 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:41:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:41:51 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:41:53 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:41:55 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:42:04 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:42:09 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:42:32 - SimplificadorJuridico - ERROR - Erro ao conectar com a API: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/processar
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:45:46 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - Aplicação Simplificador Jurídico iniciada
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:01 - SimplificadorJuridico - INFO - ============================================================
+2025-12-16 19:46:15 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:46:15 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:46:15 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:46:15 - SimplificadorJuridico - INFO - Usuário carregou texto de exemplo
+2025-12-16 19:46:24 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:46:24 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:46:24 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:46:24 - SimplificadorJuridico - WARNING - Tentativa de processar documento vazio
+2025-12-16 19:46:29 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:46:29 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:46:29 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:46:29 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 679 caracteres)
+2025-12-16 19:47:31 - SimplificadorJuridico - ERROR - Timeout ao processar documento - A API demorou muito para responder
+2025-12-16 19:47:31 - SimplificadorJuridico - ERROR - Timeout ao processar documento - A API demorou muito para responder
+2025-12-16 19:47:31 - SimplificadorJuridico - ERROR - Timeout ao processar documento - A API demorou muito para responder
+2025-12-16 19:47:31 - SimplificadorJuridico - ERROR - Timeout ao processar documento - A API demorou muito para responder
+2025-12-16 19:47:37 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 346 caracteres)
+2025-12-16 19:47:37 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 346 caracteres)
+2025-12-16 19:47:37 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 346 caracteres)
+2025-12-16 19:47:37 - SimplificadorJuridico - INFO - Iniciando processamento de documento (tamanho: 346 caracteres)
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Documento processado com sucesso - 0 citações encontradas
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Documento processado com sucesso - 0 citações encontradas
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Documento processado com sucesso - 0 citações encontradas
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Documento processado com sucesso - 0 citações encontradas
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Discrepâncias encontradas: 0
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Discrepâncias encontradas: 0
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Discrepâncias encontradas: 0
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Discrepâncias encontradas: 0
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Resultado armazenado na sessão para exibição
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Resultado armazenado na sessão para exibição
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Resultado armazenado na sessão para exibição
+2025-12-16 19:47:44 - SimplificadorJuridico - INFO - Resultado armazenado na sessão para exibição

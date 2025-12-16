@@ -13,8 +13,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
+from langchain_core.prompts import PromptTemplate
+from langchain_core.runnables import RunnableSequence
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -65,7 +65,7 @@ class AnalisadorJuridico:
     
     def __init__(self, openai_api_key: str):
         self.llm = ChatOpenAI(
-             model="gpt-4.1-mini",
+            model="gpt-4o-mini",
             temperature=0.2,
             openai_api_key=openai_api_key
         )
@@ -198,14 +198,14 @@ JSON:"""
         if not conteudo_leis:
             conteudo_leis = "Não foi possível buscar o conteúdo das leis."
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
+        chain = prompt | self.llm
         
         try:
-            resultado = chain.run(
-                texto=texto,
-                citacoes_json=json.dumps(citacoes, ensure_ascii=False, indent=2),
-                conteudo_leis=conteudo_leis
-            )
+            resultado = chain.invoke({
+                "texto": texto,
+                "citacoes_json": json.dumps(citacoes, ensure_ascii=False, indent=2),
+                "conteudo_leis": conteudo_leis
+            }).content
             
             resultado = resultado.strip()
             if resultado.startswith('```'):
@@ -239,8 +239,8 @@ TEXTO JURÍDICO:
 TEXTO SIMPLIFICADO:"""
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
-        return chain.run(texto=texto).strip()
+        chain = prompt | self.llm
+        return chain.invoke({"texto": texto}).content.strip()
     
     def processar_documento_completo(self, texto: str) -> Dict:
         """Processa documento completo"""

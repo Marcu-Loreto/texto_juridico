@@ -1,0 +1,20 @@
+# Core Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.31.0
+langchain==0.1.4
+openai==1.10.0
+beautifulsoup4==4.12.3
+requests==2.31.0
+pydantic==2.5.3
+python-dotenv==1.0.1
+lxml==5.1.0
+
+# Optional: Development Tools
+pytest==8.0.0
+pytest-asyncio==0.23.3
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+isort==5.13.2
+httpx==0.26.0
